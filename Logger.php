@@ -4,6 +4,11 @@ class Logger
 {
     private static $instance = null;
 
+    private function __construct()
+    {
+        
+    }
+
     public static function get()
     {
         if (null === self::$instance)
